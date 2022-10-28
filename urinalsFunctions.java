@@ -7,17 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class urinalsFunctions {
-//    public static String getString() throws Exception{
-//    	
-//    }
-//    
-//    public static void openFile() {
-//    	
-//    }
-//    
-//    public static int countUrinals() {
-//    	
-//    }
+
 
 	public static String getString(BufferedReader br, String urinals) throws IOException {
 		 urinals= br.readLine();
@@ -68,4 +58,11 @@ public class urinalsFunctions {
 	        BufferedReader br = new BufferedReader(new FileReader(file));
 		return br;
 	}
-}
+	
+	Boolean goodString( String str ) {
+		// checks to see if valid string 
+		System.out.println ("Not yet implemented"); 
+		return true; 
+		}
+
+	}
